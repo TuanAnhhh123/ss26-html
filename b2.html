@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let mang=[5, 90, 3, 200, 10, 6, 30];
+        let a = +prompt("nhap vao so can tìm kiếm");
+        let vitri = mang.indexOf(Number(a));
+
+        if (vitri !== -1) {
+            console.log(`Phần tử ${a} được tìm thấy tại vị trí ${vitri}`);
+        } else {
+            console.log('Phần tử không tồn tại trong mảng');
+        }
+    </script>
+</body>
+</html>
